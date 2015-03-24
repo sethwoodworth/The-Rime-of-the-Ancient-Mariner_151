@@ -5,3 +5,4 @@ branches:
   only:
     - gh-pages
 
+script: asciidoc -d book -b html5 151.adoc 151.adoc.travis.html
