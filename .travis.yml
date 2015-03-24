@@ -1,2 +1,4 @@
 language: ruby
+before_isntall:
+  - sudo apt-get install asciidoc
 
