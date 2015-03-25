@@ -1,5 +1,5 @@
 language: ruby
-before_isntall:
+before_install:
   - sudo apt-get install asciidoc
 branches:
   only:
