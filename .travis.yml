@@ -4,5 +4,6 @@ before_install:
 branches:
   only:
     - gh-pages
-
 script: asciidoctor -d book 151.adoc
+addons:
+    artifacts: true
