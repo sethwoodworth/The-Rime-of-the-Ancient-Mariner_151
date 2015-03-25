@@ -1,8 +1,8 @@
 language: ruby
 before_install:
-  - sudo apt-get install asciidoc
+  - gem install asciidoctor
 branches:
   only:
     - gh-pages
 
-script: asciidoc -d book -b html5 151.adoc
+script: asciidoctor -d book 151.adoc
