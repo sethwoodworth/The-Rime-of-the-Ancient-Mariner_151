@@ -4,6 +4,6 @@ before_install:
 branches:
   only:
     - gh-pages
-script: asciidoctor -d book 151.adoc
+script: asciidoctor -d book 151.adoc -o rime.html
 addons:
     artifacts: true
